@@ -3,7 +3,7 @@ export type Token = string;
 /**
  * The length a token must be.
  */
-export const TOKEN_LENGTH = 32;
+export const TOKEN_LENGTH = 5;
 
 export const genToken = (): Token => {
   let token = "";
